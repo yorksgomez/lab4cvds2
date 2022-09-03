@@ -41,9 +41,9 @@ public class GameScoreTest {
     }
 
     @Test
-    public void Given_0Correct0Incorrect_When_OriginalScore_Then_ShouldReturn0() {
+    public void Given_0Correct0Incorrect_When_OriginalScore_Then_ShouldReturn100() {
         //Arrage
-        int expected = 0;
+        int expected = 100;
         int testingCorrect = 0,
                 testingIncorrect = 0;
 

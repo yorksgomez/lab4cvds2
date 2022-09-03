@@ -11,7 +11,13 @@ public class BonusScore implements GameScore {
      */
     @Override
     public int calculateScore(int correctCount, int incorrectCount) {
-        return 0;
+        int score = 10 * correctCount;
+        score -= 5 * incorrectCount;
+
+        if(score < 0)
+            score = 0;
+
+        return score;
     }
 
 }
