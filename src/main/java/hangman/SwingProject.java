@@ -33,7 +33,8 @@ import com.google.inject.Injector;
 import hangman.setup.factoryMethod.HangmanDefaultFactoryMethod;
 import hangman.setup.guice.HangmanFactoryServices;
 
-public class SwingProject {
+public class
+SwingProject {
 
     public static final String CONTRIBUTORS[] = {
             "Omar Rodriguez, 008796203",
